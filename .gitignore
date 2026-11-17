@@ -1,0 +1,14 @@
+# build output
+bin/
+*.exe
+*.test
+coverage.out
+
+# local configuration and secrets never belong in this repository
+.env
+*.pem
+*.key
+iam-e2e-fixture.json
+
+.idea
+.vscode
